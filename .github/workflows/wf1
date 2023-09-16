@@ -1,0 +1,10 @@
+name: echo when triggered
+on:
+  repository_dispatch:
+jobs:
+  build:
+    name: echo 
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo Hello, How are you?
