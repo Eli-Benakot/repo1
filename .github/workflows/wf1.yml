@@ -3,7 +3,7 @@ on:
   repository_dispatch:
 jobs:
   build:
-    name: wf1 greeting 
+    name: wf1 - asking
     runs-on: ubuntu-latest
     steps:
       - name: say hello
