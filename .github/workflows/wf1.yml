@@ -1,4 +1,4 @@
-name: echo when triggered
+name: wf1
 on:
   repository_dispatch:
 jobs:
